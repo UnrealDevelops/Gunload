@@ -8,16 +8,19 @@
   <style>
    body {
     background-color: Black;
+    color: White;
+    font-family: "Roboto", sans-serif;
+
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    margin: 0;  /* Removes any default margin */
    }
    h1 {
-    color: White;
-    font-family: "Roboto";
     margin: 50px auto;
     text-align: center;
    }
    h3 {
-    color: White;
-    font-family: "Roboto";
     text-align: center;
    }
    form {
@@ -39,10 +42,10 @@
   <h3>FORM</h3>
   <form>
    
-   <input type="text" placeholder="Username"> <br>
-   <textarea id="Message" placeholder="Message" resize=none></textarea> <br>
-   <input id="Upload" type="file"> <br>
-   <button>Submit as</button> <select name="Options" id="Submittion">
+   <input type="text" placeholder="Username"> <br> <!-- Player's Username -->
+   <textarea id="Message" placeholder="Message" resize=none></textarea> <br> <!-- Submittion Message -->
+   <input id="Upload" type="file"> <br> <!-- Attached File to Report -->
+   <button>Submit as</button> <select name="Options" id="Submittion"> <!-- Submit Button + Available Options -->
     <option value="report">Report</option>
     <option value="contribution">Contribution</option>
     <option value="suggestion">Suggestion</option>
