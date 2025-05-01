@@ -18,6 +18,7 @@
    h3 {
     color: White;
     font-family: "Roboto";
+    text-align: center;
    }
    form {
     width: 300px;
@@ -26,18 +27,22 @@
   </style>
   
  </head>
+ 
  <body>
-
-  <h1>Gunload</h1>
   
+  <h1>GUNLOAD</h1>
+ 
   <h3>FORM</h3>
   <form>
    
    <input type="text" placeholder="Username"> <br>
    <textarea id="Message" placeholder="Message" resize=none></textarea> <br>
    <input id="Upload" type="file"> <br>
-   <button>Submit as Report</button>
-   <button>Submit as Contribution</button>
+   <button>Submit as</button> <select name="cars" id="cars">
+    <option value="volvo">Report</option>
+    <option value="saab">Contribution</option>
+    <option value="opel">Suggestion</option>
+  </select>
    
   </form>
   
