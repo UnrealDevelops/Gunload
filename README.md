@@ -1,2 +1,0 @@
-# Gunload
-The Gunload Project
